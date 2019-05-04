@@ -107,7 +107,7 @@ passport.use(
 app.get('/auth/facebook', passport.authenticate('facebook'));
 
 app.get('/auth/facebook/callback', passport.authenticate('facebook', { failureRedirect: '/' }), function(req, res) {
-	res.redirect('https://c303c0f1.ngrok.io/my-page');
+	res.redirect('https://travelz-isabela-camila.herokuapp.com/my-page');
 });
 
 // Express View engine setup
@@ -132,15 +132,5 @@ app.locals.title = 'Express - Generated with IronGenerator';
 
 const auth = require('./routes/auth');
 app.use('/', auth);
-
-// const fs = require('fs')
-// const https=require('https')
-
-// https.createServer({
-//   key: fs.readFileSync('server.key'),
-//   cert: fs.readFileSync('server.cert')
-// }, app).listen(5000, () => {
-//   console.log('Listening...')
-// })
 
 module.exports = app;
