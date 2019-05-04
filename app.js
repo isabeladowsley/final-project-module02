@@ -107,7 +107,7 @@ passport.use(
 app.get('/auth/facebook', passport.authenticate('facebook'));
 
 app.get('/auth/facebook/callback', passport.authenticate('facebook', { failureRedirect: '/' }), function(req, res) {
-	res.redirect('https://travelz-isabela-camila.herokuapp.com/signup/my-page');
+	res.redirect('https://travelz-isabela-camila.herokuapp.com/my-page');
 });
 
 // Express View engine setup
