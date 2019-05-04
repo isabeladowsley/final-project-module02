@@ -13,8 +13,6 @@ const LocalStrategy = require('passport-local').Strategy;
 const FacebookStrategy = require('passport-facebook').Strategy;
 const findOrCreate = require('mongoose-findorcreate');
 
-require('dotenv').config();
-
 const User = require('./models/user');
 
 const session = require('express-session');
