@@ -1,0 +1,343 @@
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 5%;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 26, 51);
+  color: white;
+  font-family: 'Karla', sans-serif;
+  text-align: left;
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 2.4rem;
+  padding: 1%
+}
+
+h3 {
+  font-size: 1.8rem;
+  padding: 1%
+}
+
+h4 {
+  font-size: 1.6rem;
+  padding: 1%
+}
+
+h5 {
+  font-size: 1.4rem;
+  padding: 0.5%
+}
+
+p {
+  font-size: 1.8rem;
+  padding-left: 3%
+}
+
+label {
+  margin: 1rem;
+  font-size: 1.4rem;
+}
+
+input {
+  background: white;
+  color: black;
+  font-size: 1.6rem;
+  padding: 1%;
+}
+
+
+textarea {
+  background: white;
+  color: black;
+  font-size: 1.4rem;
+}
+
+.btn {
+  margin: 2%;
+   padding: 1rem;
+   font-size: 1.4em;
+   align-content: middle;
+   background-color: #42a399;
+   color: white;
+}
+
+
+.btnhome {
+  margin: 2%;
+   padding: 1rem;
+   font-size: 1.4em;
+   align-content: middle;
+   background-color:#d1786e;
+   color: white;
+}
+
+#fbbtn{
+  width: 20%;
+  margin-top: -150%;
+}
+
+  
+  #map1, #map2 {
+    height: 40vw;
+  }
+
+  .home {
+    height: 30%;
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    
+  }
+
+  #logo {
+    margin-top: -20%;
+    height: 1100px;
+    margin-bottom: -20%;
+  }
+
+  #addplace {
+    float: left;
+  }
+
+
+  #places {
+    background-color: #d1786e;
+  }
+
+  #containerall {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+  
+  }
+
+  #container1 {
+    width: 33%;
+  }
+
+  #container2 {
+    width: 33%;
+  }
+
+  #container3 {
+    width: 33%;
+  }
+
+  #hello {
+    background-color: #d1786e;
+  }
+
+
+  .check {
+  margin-left: 5px;;
+}
+
+.input {
+  padding: 2%;
+  text-align: center;
+  justify-content: flex-start;
+}
+
+.form {
+  justify-content: right;
+}
+
+.nav {
+  height: 100%;
+  width: 250px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color:  #d1786e;
+  overflow-x: hidden; 
+  padding-top: 20px;
+}
+
+
+#logout{
+height: 50px;
+position: absolute;
+width: 100%;
+bottom: 0;
+list-style-type: none;
+padding-bottom:5.5em;
+  }
+
+.glyphicon {
+    font-family: inherit;
+    margin-right: 5px;
+    position: relative;
+}
+.glyphicon:before{
+    font-family:'Glyphicons Halflings';
+}
+
+
+.main  {
+  height: 3000px;
+  margin-left: 15%;
+  background-image: url('/images/notes.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  color:  rgb(0, 26, 51);
+  margin-top: -2%;
+
+}
+
+#addbtn {
+height: 50px;
+width: 120px;
+float: right;
+position: absolute;
+top: 3%;
+right: 5%;
+}
+
+
+#journalcontainer {
+  background-color: #d1786e;
+}
+
+#loginbtn {
+  text-align: center;
+  margin-left: 50%;
+}
+
+.ml2 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+  /* google maps. */
+
+  #description {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  
+  #infowindow-content .title {
+    font-weight: bold;
+  }
+  
+  #infowindow-content {
+    display: none;
+  }
+  
+  #map #infowindow-content {
+    display: inline;
+  }
+  
+  .pac-card {
+    margin-right: 4%;
+    float: right;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    font-family: Roboto;
+    width: 60%;
+    color: black;
+  }
+  
+  #pac-container {
+    padding-bottom: 12px;
+    margin-right: 12px;
+  }
+  
+  .pac-controls {
+    display: inline-block;
+    padding: 5px 11px;
+    color: black;
+  }
+  
+  .pac-controls label {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+  }
+  
+  #pac-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 400px;
+  }
+  
+  #pac-input:focus {
+    border-color: #4d90fe;
+  }
+  
+  #title {
+    color: #fff;
+    background-color: #4d90fe;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 6px 12px;
+  }
+
+  .controls {
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 32px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    color: black;
+  }
+  
+  #origin-input,
+  #destination-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 200px;
+  }
+  
+  #origin-input:focus,
+  #destination-input:focus {
+    border-color: #4d90fe;
+  }
+  
+  #mode-selector {
+    color: #fff;
+    background-color: #4d90fe;
+    margin-left: 12px;
+    padding: 5px 11px 0px 11px;
+  }
+  
+  #mode-selector label {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 2%;
+  }
